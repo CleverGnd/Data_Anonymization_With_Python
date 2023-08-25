@@ -29,8 +29,8 @@ O projeto foi desenvolvido utilizando o PostgreSQL como banco de dados, o VScode
 
 O projeto consiste em dois arquivos:
 
-- [query.sql](.\query.sql): Este arquivo contém a query SQL para criar o banco de dados de exemplo, juntamente com duas tabelas: "cliente" e "contatos". Os dados nessas tabelas foram gerados aleatoriamente utilizando a biblioteca Faker do Python.
-- [anonimizacao.py](.\anonimizacao.py ): Este arquivo contém o código-fonte do projeto em Python. Ele implementa funções para realizar a anonimização dos dados, utilizando métodos como criptografia, mascaramento e generalização.
+- [query.sql](./query.sql): Este arquivo contém a query SQL para criar o banco de dados de exemplo, juntamente com duas tabelas: "cliente" e "contatos". Os dados nessas tabelas foram gerados aleatoriamente utilizando a biblioteca Faker do Python.
+- [anonimizacao.py](./anonimizacao.py ): Este arquivo contém o código-fonte do projeto em Python. Ele implementa funções para realizar a anonimização dos dados, utilizando métodos como criptografia, mascaramento e generalização.
 
 <h3 id="ComoExecutar">Como utilizar este projeto</h3>
 
@@ -38,13 +38,14 @@ Para executar o projeto, siga as etapas abaixo:
 1. Certifique-se de ter o Python em sua máquina. Você pode baixar o Python em [python.org](https://www.python.org/downloads/);
 2. Certifique-se de ter o PostgreSQL em sua máquina. Você pode baixar o PostgreSQL em [postgresql.org](https://www.postgresql.org/download/);
 3. Clone este repositório em sua máquina;
-4. Execute o arquivo [query.sql](.\query.sql) para criar o banco de dados de exemplo;
-5. Edite o arquivo [anonimizacao.py](.\anonimizacao.py) e altere as variáveis de conexão com o banco de dados para que elas correspondam às configurações do seu banco de dados;
-6. Execute o arquivo [anonimizacao.py](.\anonimizacao.py);
+4. Execute o arquivo [query.sql](./query.sql) para criar o banco de dados de exemplo;
+5. Edite o arquivo [anonimizacao.py](./anonimizacao.py) e altere as variáveis de conexão com o banco de dados para que elas correspondam às configurações do seu banco de dados;
+6. Execute o arquivo [anonimizacao.py](./anonimizacao.py);
 7. Siga as instruções no terminal para escolher o método de anonimização desejado.
 
 Exemplo de execução no terminal:
-![Exemplo de execução no terminal](.\img\terminalLog.jpg)
+
+![Exemplo de execução no terminal](./img/terminalLog.jpg)
 
 <h3 id="Funcionalidades">Funcionalidades</h3>
 
