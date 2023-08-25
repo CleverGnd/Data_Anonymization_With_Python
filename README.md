@@ -43,6 +43,9 @@ Para executar o projeto, siga as etapas abaixo:
 6. Execute o arquivo [anonimizacao.py](.\anonimizacao.py);
 7. Siga as instruções no terminal para escolher o método de anonimização desejado.
 
+Exemplo de execução no terminal:
+![Exemplo de execução no terminal](.\img\terminalLog.jpg)
+
 <h3 id="Funcionalidades">Funcionalidades</h3>
 
 Alguns exemplos de como os dados são anonimizados:
